@@ -1,0 +1,110 @@
+﻿@font-face {
+	
+	font-family: "HelveticaMedium";
+	src: url(../fonts/HelveticaMedium.ttf);
+}
+
+@font-face {
+	
+	font-family: "HelveticaMedium";
+	src: url(../fonts/HelveticaMedium.ttf);
+}
+
+@font-face {
+	
+	font-family: "segoepr";
+	src: url(../fonts/segoepr.ttf);
+}
+
+*, *:after, *:before {
+box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Segoe Print, HelveticaMedium, sans-serif;
+	font-weight: normal;
+	color: #373737;
+}
+
+page {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: left;
+}
+
+/*  Значения для фона хэдэра */
+.headerbg {
+    background: url(../img/pizzaonwoodboard.png) no-repeat;
+    height: 900px;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+}
+
+.navbar-my {
+    font-size: 18pt;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    border: 3px solid red;
+}
+
+#logo img {
+    width: 10%;
+}
+
+#logo  {
+    font-size: 3vw;    
+    color: #fff;
+    margin: 32px 0px 0px 44px;
+    display: inline-block;
+    float: left;
+}
+
+.menu {
+    margin: 41px 0px 0px 39vw;
+    display: inline-block;
+    color: #fff;
+    font-family: HelveticaMedium, sans-serif;
+    font-size: 22px;
+    height: 45px;
+    float:right;
+    
+}
+
+.menu li {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 46px;
+    padding-bottom: 0px;
+    height: auto;
+
+}
+
+.menu li:first-child {
+    padding-left: 0px;
+    
+}
+
+.menu li:hover {
+    border-bottom: 2px solid red;    
+}
+
+.menu a:active {
+    outline-width: medium;
+}
+
+.menu a {
+    color: #fff;
+    display: inline-block;
+    height: 45px;
+}
+
